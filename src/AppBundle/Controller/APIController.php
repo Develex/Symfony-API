@@ -12,10 +12,8 @@ class APIController extends FOSRestController
     /**
      * @Rest\Get("/api/get/data")
      */
-    public function getDataAction() {
-
+    public function getDataAction()
+    {
         return new JsonResponse(['api' => 'dummy data']);
-
     }
-
 }
